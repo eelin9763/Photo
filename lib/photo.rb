@@ -1,6 +1,2 @@
-require "photo/version"
-
-module Photo
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "photo/version"
+require_relative "./photo/cli"
