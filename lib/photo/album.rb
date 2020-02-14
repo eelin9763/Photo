@@ -2,22 +2,122 @@ class Photo::Album
   attr_accessor :albumId, :id, :title, :url, :thumbnailUrl
 
   def self.now
-    self.scrape_photos
+    self.scrape_photo
   end
 
-  def self.scrape_photos
+  def self.scrape_photo
     photos = []
 
-    photos << self.scrape_jsonplaceholder
-
-
-    photos
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=1")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=2")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=3")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=4")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=5")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=6")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=7")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=8")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=9")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=10")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=11")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=12")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=13")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=14")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=15")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=16")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=17")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=18")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=19")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=20")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=21")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=22")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=23")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=24")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=25")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=26")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=27")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=28")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=29")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=30")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=31")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=32")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=33")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=34")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=35")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=36")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=37")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=38")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=39")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=40")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=41")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=42")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=43")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=44")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=45")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=46")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=47")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=48")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=49")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=50")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=51")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=52")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=53")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=54")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=55")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=56")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=57")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=58")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=59")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=60")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=61")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=62")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=63")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=64")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=65")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=66")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=67")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=68")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=69")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=70")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=71")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=72")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=73")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=74")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=75")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=76")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=77")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=78")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=79")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=80")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=81")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=82")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=83")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=84")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=85")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=86")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=87")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=88")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=89")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=90")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=91")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=92")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=93")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=94")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=95")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=96")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=97")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=98")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=99")
+    photos << self.scrape_photos("https://jsonplaceholder.typicode.com/photos?albumId=100")
 
   end
 
-  def self.scrape_jsonplaceholder
-    doc = Nokogiri::HTML(open("https://jsonplaceholder.typicode.com/photos"))
-    binding.pry
+  def self.scrape_photos(photos_url)
+    doc = Nokogiri::HTML(open(photos_url))
+
+    photo = self.new
+    photo.albumId = doc.text
+    photo
+
   end
 
 end
