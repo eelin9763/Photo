@@ -25,7 +25,7 @@ Or install it yourself as:
 2. Type "bundle install" to install the required gems.
 3. Run the program with "ruby bin/photo"(wait until it asks for user input).
 4. Type in an album number between 1-100.
-5. Google any troubleshooting such as permission denied or restricted.
+5. Google any troubleshooting if there are any errors such as permission denied or restricted.
 
 ## Development
 
