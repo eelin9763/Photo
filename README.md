@@ -21,7 +21,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Clone this repo.
+2. Type "bundle install" to install the required gems.
+3. Run the program with "ruby bin/photo".
+4. Type in an album number between 1-100 when asked for.
+5. Google any troubleshooting such as permission denied or restricted.
 
 ## Development
 
