@@ -1,8 +1,9 @@
 # Photo
 
 This gem will scrap 100 photo albums with 5000 photos off this website.
+```
 https://jsonplaceholder.typicode.com/photos
-
+```
 Thank you for taking the time to look at this showcase.
 
 ## Installation
