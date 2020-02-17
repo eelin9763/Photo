@@ -1,7 +1,8 @@
 # Photo
 
-This gem will scrap 5000 photos in 100 photoalbums website.
+This gem will scrap 100 photo albums with 5000 photos off this website.
 https://jsonplaceholder.typicode.com/photos
+Thank you for taking the time to look at this showcase.
 
 ## Installation
 
@@ -21,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Clone this repo.
+2. Type "bundle install" to install the required gems.
+3. Run the program with "ruby bin/photo"(wait until it asks for user input).
+4. Type in an album number between 1-100.
+5. Google any troubleshooting if there are any errors such as permission denied or restricted.
 
 ## Development
 
